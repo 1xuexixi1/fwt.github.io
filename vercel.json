@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    { "source": "/api/dictionary/:path*", "destination": "https://api.dictionaryapi.dev/:path*" },
+    { "source": "/api/translate/:path*",  "destination": "https://api.mymemory.translated.net/:path*" },
+    { "source": "/api/baidu/:path*",      "destination": "https://fanyi-api.baidu.com/:path*" },
+    { "source": "/:path*",                "destination": "/index.html" }
+  ]
+}
